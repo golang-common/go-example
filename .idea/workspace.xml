@@ -1,8 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="1712349f-daf3-4eac-9f8a-c8849484bafa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/build_exp/main" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build_exp/main.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build_exp/main2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,27 +39,31 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" path="/usr/local/go" />
+  <component name="GOROOT" path="D:\apps\go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1VmexDjszpFYmYN2040iqclAm0x" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="configurable.Global.GOPATH.is.expanded" value="true" />
     <property name="configurable.Module.GOPATH.is.expanded" value="true" />
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../code.paic.com.cn/panet-devops/cmdb-api" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="go.vgo" />
@@ -55,29 +82,7 @@
       <recent name="$PROJECT_DIR$/grpc_exp/simple_exp/helloworld" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestServer in dpy/exp/grpc_exp/interceptor_exp">
-    <configuration name="Test1 in dpy/exp/grpc_exp/simple_exp/client" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="exp" />
-      <working_directory value="$PROJECT_DIR$/grpc_exp/simple_exp/client" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="dpy/exp/grpc_exp/simple_exp/client" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^Test1$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Test1 in dpy/exp/grpc_exp/simple_exp/server" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="exp" />
-      <working_directory value="$PROJECT_DIR$/grpc_exp/simple_exp/server" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="dpy/exp/grpc_exp/simple_exp/server" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^Test1$" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Test.TestIPv4Src in golang_exp/net_exp/dial_specific_addr">
     <configuration name="TestClient in dpy/exp/grpc_exp/auth_exp/tls_test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="exp" />
       <working_directory value="$PROJECT_DIR$/grpc_exp/auth_exp/tls_test" />
@@ -87,6 +92,17 @@
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
       <pattern value="^TestClient$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestIPv4Src in golang_exp/net_exp/dial_specific_addr" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="exp" />
+      <working_directory value="$PROJECT_DIR$/net_exp/dial_specific_addr" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="golang_exp/net_exp/dial_specific_addr" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestIPv4Src$" />
       <method v="2" />
     </configuration>
     <configuration name="TestServer in dpy/exp/grpc_exp/auth_exp/tls_test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -111,98 +127,77 @@
       <pattern value="^TestServer$" />
       <method v="2" />
     </configuration>
+    <configuration name="go test golang_exp/ssh_exp/netconf_exp" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="exp" />
+      <working_directory value="$PROJECT_DIR$/ssh_exp/netconf_exp" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="golang_exp/ssh_exp/netconf_exp" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestIPv4Src in golang_exp/net_exp/dial_specific_addr" />
+        <item itemvalue="Go Test.go test golang_exp/ssh_exp/netconf_exp" />
         <item itemvalue="Go Test.TestServer in dpy/exp/grpc_exp/interceptor_exp" />
         <item itemvalue="Go Test.TestClient in dpy/exp/grpc_exp/auth_exp/tls_test" />
         <item itemvalue="Go Test.TestServer in dpy/exp/grpc_exp/auth_exp/tls_test" />
-        <item itemvalue="Go Test.Test1 in dpy/exp/grpc_exp/simple_exp/client" />
-        <item itemvalue="Go Test.Test1 in dpy/exp/grpc_exp/simple_exp/server" />
       </list>
     </recent_temporary>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
+    <environment>
+      <map>
+        <entry key="GOPROXY" value="https://goproxy.cn" />
+      </map>
+    </environment>
     <proxy>https://goproxy.cn</proxy>
   </component>
   <component name="WindowStateProjectService">
-    <state x="560" y="37" key="#Go_Modules_(vgo)" timestamp="1579161570911">
-      <screen x="0" y="23" width="1440" height="807" />
+    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1596502888039">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="560" y="37" key="#Go_Modules_(vgo)/0.23.1440.807@0.23.1440.807" timestamp="1579161570911" />
-    <state x="320" y="92" key="#Notifications" timestamp="1578885660463">
-      <screen x="0" y="23" width="1440" height="807" />
+    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1596502888039" />
+    <state width="1238" height="163" key="GridCell.Tab.0.bottom" timestamp="1592020351815">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="320" y="92" key="#Notifications/0.23.1440.807@0.23.1440.807" timestamp="1578885660463" />
-    <state x="722" y="326" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1579485092764">
-      <screen x="0" y="23" width="1920" height="987" />
+    <state width="1238" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1592020351815" />
+    <state width="1238" height="163" key="GridCell.Tab.0.center" timestamp="1592020351815">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="722" y="326" key="#com.intellij.fileTypes.FileTypeChooser/1920.103.1440.877/0.23.1920.987@0.23.1920.987" timestamp="1579485092764" />
-    <state x="408" y="161" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1578885560325">
-      <screen x="0" y="23" width="1440" height="807" />
+    <state width="1238" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1592020351815" />
+    <state width="1238" height="163" key="GridCell.Tab.0.left" timestamp="1592020351815">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="408" y="161" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1440.807@0.23.1440.807" timestamp="1578885560325" />
-    <state x="415" y="70" key="#go_build_dpy/exp/etcd_exp/serv_discov_exp_1/serv_discover" timestamp="1579161659333">
-      <screen x="0" y="23" width="1440" height="807" />
+    <state width="1238" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1592020351815" />
+    <state width="1238" height="163" key="GridCell.Tab.0.right" timestamp="1592020351815">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="415" y="70" key="#go_build_dpy/exp/etcd_exp/serv_discov_exp_1/serv_discover/0.23.1440.807@0.23.1440.807" timestamp="1579161659333" />
-    <state width="1878" height="236" key="GridCell.Tab.0.bottom" timestamp="1579598100754">
-      <screen x="0" y="23" width="1920" height="987" />
+    <state width="1238" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1592020351815" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1592184551837">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1878" height="259" key="GridCell.Tab.0.bottom/0.23.1440.807/-1920.-66.1920.1057@-1920.-66.1920.1057" timestamp="1579166216291" />
-    <state width="1398" height="182" key="GridCell.Tab.0.bottom/0.23.1440.807@0.23.1440.807" timestamp="1579341307843" />
-    <state width="1878" height="236" key="GridCell.Tab.0.bottom/0.23.1920.987@0.23.1920.987" timestamp="1579572316262" />
-    <state width="1878" height="236" key="GridCell.Tab.0.bottom/1920.103.1440.877/0.23.1920.987@0.23.1920.987" timestamp="1579598100754" />
-    <state width="1878" height="236" key="GridCell.Tab.0.center" timestamp="1579598100752">
-      <screen x="0" y="23" width="1920" height="987" />
-    </state>
-    <state width="1878" height="259" key="GridCell.Tab.0.center/0.23.1440.807/-1920.-66.1920.1057@-1920.-66.1920.1057" timestamp="1579166216290" />
-    <state width="1398" height="182" key="GridCell.Tab.0.center/0.23.1440.807@0.23.1440.807" timestamp="1579341307840" />
-    <state width="1878" height="236" key="GridCell.Tab.0.center/0.23.1920.987@0.23.1920.987" timestamp="1579572316260" />
-    <state width="1878" height="236" key="GridCell.Tab.0.center/1920.103.1440.877/0.23.1920.987@0.23.1920.987" timestamp="1579598100752" />
-    <state width="1878" height="236" key="GridCell.Tab.0.left" timestamp="1579598100748">
-      <screen x="0" y="23" width="1920" height="987" />
-    </state>
-    <state width="1878" height="259" key="GridCell.Tab.0.left/0.23.1440.807/-1920.-66.1920.1057@-1920.-66.1920.1057" timestamp="1579166216288" />
-    <state width="1398" height="182" key="GridCell.Tab.0.left/0.23.1440.807@0.23.1440.807" timestamp="1579341307837" />
-    <state width="1878" height="236" key="GridCell.Tab.0.left/0.23.1920.987@0.23.1920.987" timestamp="1579572316259" />
-    <state width="1878" height="236" key="GridCell.Tab.0.left/1920.103.1440.877/0.23.1920.987@0.23.1920.987" timestamp="1579598100748" />
-    <state width="1878" height="236" key="GridCell.Tab.0.right" timestamp="1579598100753">
-      <screen x="0" y="23" width="1920" height="987" />
-    </state>
-    <state width="1878" height="259" key="GridCell.Tab.0.right/0.23.1440.807/-1920.-66.1920.1057@-1920.-66.1920.1057" timestamp="1579166216291" />
-    <state width="1398" height="182" key="GridCell.Tab.0.right/0.23.1440.807@0.23.1440.807" timestamp="1579341307842" />
-    <state width="1878" height="236" key="GridCell.Tab.0.right/0.23.1920.987@0.23.1920.987" timestamp="1579572316261" />
-    <state width="1878" height="236" key="GridCell.Tab.0.right/1920.103.1440.877/0.23.1920.987@0.23.1920.987" timestamp="1579598100753" />
-    <state x="241" y="101" key="SettingsEditor" timestamp="1579587217666">
-      <screen x="0" y="23" width="1920" height="987" />
-    </state>
-    <state x="-1679" y="18" key="SettingsEditor/0.23.1440.807/-1920.-66.1920.1057@-1920.-66.1920.1057" timestamp="1579163647806" />
-    <state x="-1679" y="15" key="SettingsEditor/0.23.1440.807/-1920.-69.1920.1057@-1920.-69.1920.1057" timestamp="1579069574779" />
-    <state x="181" y="87" key="SettingsEditor/0.23.1440.807@0.23.1440.807" timestamp="1579339394948" />
-    <state x="241" y="101" key="SettingsEditor/1920.103.1440.877/0.23.1920.987@0.23.1920.987" timestamp="1579587217666" />
-    <state x="21" y="37" width="1880" height="979" maximized="true" key="dock-window-1" timestamp="1579594444310">
-      <screen x="0" y="23" width="1920" height="987" />
-    </state>
-    <state x="21" y="37" width="1880" height="979" maximized="true" key="dock-window-1/1920.103.1440.877/0.23.1920.987@0.23.1920.987" timestamp="1579594444310" />
-    <state x="640" y="152" width="639" height="729" key="find.popup" timestamp="1579485315300">
-      <screen x="0" y="23" width="1920" height="987" />
-    </state>
-    <state x="640" y="152" width="639" height="729" key="find.popup/1920.103.1440.877/0.23.1920.987@0.23.1920.987" timestamp="1579485315300" />
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1592184551837" />
   </component>
 </project>
