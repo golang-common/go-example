@@ -13,8 +13,7 @@ package serv_register
 import (
 	"context"
 	"fmt"
-	"github.com/coreos/etcd/mvcc/mvccpb"
-	"go.etcd.io/etcd/clientv3"
+	clientv3 "go.etcd.io/etcd/client/v3"
 	"log"
 	"sync"
 	"testing"
@@ -59,9 +58,9 @@ func (s *ClientDis) watcher(prefix string) {
 	for wresp := range watchChan {
 		for _, ev := range wresp.Events {
 			switch ev.Type {
-			case mvccpb.PUT:
+			case clientv3.EventTypePut:
 				s.SetServiceList(string(ev.Kv.Key), string(ev.Kv.Value))
-			case mvccpb.DELETE:
+			case clientv3.EventTypeDelete:
 				s.DelServiceList(string(ev.Kv.Key))
 			}
 		}

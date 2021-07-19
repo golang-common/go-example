@@ -5,7 +5,7 @@
 package streaming_exp
 
 import (
-	pb "dpy/exp/grpc_exp/proto"
+	pb "golang_exp/grpc_exp/proto"
 	"google.golang.org/grpc"
 	"io"
 	"log"

@@ -6,7 +6,7 @@ package interceptor_exp
 
 import (
 	"context"
-	pb "dpy/exp/grpc_exp/proto"
+	pb "golang_exp/grpc_exp/proto"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/grpclog"
 	"testing"
@@ -48,7 +48,7 @@ func TestClient(t *testing.T) {
 	//	}
 	//	opts = append(opts, grpc.WithTransportCredentials(creds))
 	//} else {
-		opts = append(opts, grpc.WithInsecure())
+	opts = append(opts, grpc.WithInsecure())
 	//}
 
 	// 指定自定义认证

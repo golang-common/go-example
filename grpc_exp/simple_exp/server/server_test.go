@@ -6,7 +6,7 @@ package server
 
 import (
 	"context"
-	pb "dpy/exp/grpc_exp/simple_exp/helloworld"
+	pb "golang_exp/grpc_exp/simple_exp/helloworld"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/reflection"
 	"log"

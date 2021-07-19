@@ -6,7 +6,7 @@ package interceptor_exp
 
 import (
 	"context"
-	pb "dpy/exp/grpc_exp/proto"
+	pb "golang_exp/grpc_exp/proto"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/metadata"
