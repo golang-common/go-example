@@ -1,7 +1,10 @@
 package tempexp
 
 import (
+	"fmt"
 	"net"
+	"reflect"
+	"strings"
 	"testing"
 )
 
@@ -55,10 +58,35 @@ func TestMol(t *testing.T) {
 		s.a = 11
 		t.Logf("%+v", s)
 	}
-	t.Logf("%+v",sl)
+	t.Logf("%+v", sl)
 }
 
-func TestSli(t *testing.T){
+func TestSli(t *testing.T) {
 	var a = []int{0}
 	t.Log(a[:len(a)-1])
+}
+
+func TestType(t *testing.T) {
+	var a = `
+type test{
+	hello
+	hello2
+}`
+	a = strings.Trim(a, " \n")
+	fmt.Println(a)
+	name := a[5:strings.Index(a, "{")]
+	fmt.Println(name)
+	var b = "<~test>"
+	fmt.Println(b[2 : len(b)-1])
+}
+
+func TestStruct(t *testing.T) {
+	var a = map[string]string{"a": "b"}
+	var b map[string]interface{}
+	t.Log(reflect.TypeOf(a).AssignableTo(reflect.TypeOf(b)))
+}
+
+func TestArray(t *testing.T) {
+	var a = "sdlkfj"
+	t.Log(a[2:])
 }
