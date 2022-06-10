@@ -23,6 +23,8 @@ func TestMemory(t *testing.T) {
 	t.Logf("usage = %d bytes", int(m.UsedPercent))
 }
 
+
+
 func TestCPU(t *testing.T) {
 	c, err := cpu.Info()
 	if err != nil {

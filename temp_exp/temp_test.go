@@ -1,6 +1,7 @@
 package tempexp
 
 import (
+	"encoding/json"
 	"fmt"
 	"net"
 	"reflect"
@@ -89,4 +90,34 @@ func TestStruct(t *testing.T) {
 func TestArray(t *testing.T) {
 	var a = "sdlkfj"
 	t.Log(a[2:])
+}
+
+type Temp struct {
+	Name  string   `json:"name,omitempty"`
+	Pass  string   `json:"pass,omitempty"`
+	Mac   []string `json:"mac,omitempty"`
+	Hello *string  `json:"hello,omitempty"`
+}
+
+func Test12(t *testing.T) {
+	a := "aaa"
+	var r = Temp{
+		Name:  "hh11",
+		Hello: &a,
+	}
+	b := r.Hello
+	r.Hello = nil
+	fmt.Println(*b)
+}
+
+func TestTemp2(t *testing.T) {
+	var ta = `{"mac":null}`
+	var r Temp
+	err := json.Unmarshal([]byte(ta), &r)
+	if err != nil {
+		t.Fatal(err)
+	}
+	t.Log(r.Mac == nil)
+	t.Log(len(r.Mac))
+	t.Log(ta)
 }
